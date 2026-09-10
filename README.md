@@ -68,8 +68,6 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 | 3 Sept | Varsha Selvakumar | Travel Planner (Kong): Midpoint recommendation for reconvening, weather and crowd factor prediction (is niche and good) StudyLah (Ethan): Refine prediction model, copy study plan is good idea, use prediction model to suggest new template quiz to match users to new templates NEED PREDICT BECAUSE STOP BURNOUT behavior analysis Stress Tracker (JunHan): Combine Ethan and JunHan idea. Feature is good, but less niche since it is 1 to 1 to what problem statement wants. More competition since everyone solving same problem. This idea will compete in who solves the problem better (JunHan idea), rather than who solves a better problem (Kong idea) Idea Tips: Find the problem and find features to solve it. See if can map a feature to a problem statement  find niche \-\> smaller audience, better space user \-\> problem \-\> feature | More confidence in travel planner idea, add midpoint recommendation, weather & crowd prediction into idea. |
 | 4 Sept | Iris Yan | Pitch for JunHan idea was good and attention grabbing.  Pitch for travel planner has intended customer base zoned in (good and niche). Introduce Tinder-based grouping system to group people in large travel groups | Finalize on travel planner idea, add Tinder-based grouping system to idea. |
 
-Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor’s advice, it will still count as engaging with it.
-
 ## **3\. Design & Prototype**
 
 **UI Prototype:** https://officialtgv.netlify.app
