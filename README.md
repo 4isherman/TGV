@@ -74,7 +74,15 @@ The app will also remind the user for constant recalibration to adapt to changes
 ```
 
 ```
+1. The StudyLah Concept
+StudyLah is a social learning-planning platform for university students. Creators publish structured study blueprints that describe a learning strategy, required effort, sequence, milestones and suitable context. Followers can copy a blueprint, but StudyLah does not reproduce its timetable blindly. It adapts the method to the follower’s real availability and observed learning behaviour.
 
+
+
+1.1 Problem Statement
+Students are surrounded by advice but still struggle to convert it into a realistic routine. A timetable copied from a high-performing student may demand different hours, energy patterns, course intensity or personal responsibilities. Static templates preserve someone else’s schedule; ordinary planners organise tasks the student already knows how to create; generic schedule generators often lack evidence about where the routine came from and whether it worked for comparable learners.
+1.2 Specific Target Group
+The initial target group is Malaysian university students managing classes, assessments and independent study, particularly students who feel overloaded, lack a reliable study routine or repeatedly abandon ambitious schedules. This directly fits CodeNection’s Lifestyle and Personal Productivity direction and its burnout-related problem context.
 ```
 
 ![Affinity](https://i.imgur.com/MO29KDG.png)
