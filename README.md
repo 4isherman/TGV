@@ -1,4 +1,6 @@
 # **TravelGroupVerynice by TehOLimauAis**
+![logo](https://raw.githubusercontent.com/4isherman/TGV/refs/heads/main/assets/logo.png)
+
 
 **Team:** Ethan Law, Ng Jun Han, Kong Shiun Soon, Oh Yu Pin
 
