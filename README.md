@@ -54,8 +54,8 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 | Idea | Why it was dropped / kept |
 | :---- | :---- |
 | TravelGroupVerynice TGV (Chosen) | Niche (some features targeted towards large travel groups) Everyone can use the app (wide audience) Came up with multiple unique ideas to distinguish our idea from existing solutions |
-| StudyLah (Dropped) |  |
-| Dedicated AI Stress Organizer DAISO (Dropped) |  |
+| StudyLah (Dropped) | The idea was also dropped due to the lack of an isolated user base. The digital twin idea is heavily reliant in user discipline and requires additional effort to operate, which we think will cause more harm than good. |
+| Dedicated AI Stress Organizer DAISO (Dropped) | Although the rPPG idea was unique, however there are already established products out there that solves the same problem. This product also solves the same problem, just with a different solution. We have also researched that the compromise for using webcam based rPPG instead of flashlight based rPPG degrades performance heavily and non mobile users have to accept this compromise. This idea was dropped precisely because it was outshined from the impact standpoint compared to the travel planner idea. |
 
 ### **2.2 Ideation Boards**
 
