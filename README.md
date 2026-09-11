@@ -51,11 +51,11 @@ Feature Set:
 
 Table of every distinct idea generated, with why each was kept or dropped, order it so that chosen ideas are listed first
 
-| Idea | Why it was dropped / kept |
-| :---- | :---- |
-| TravelGroupVerynice TGV (Chosen) | Niche (some features targeted towards large travel groups) Everyone can use the app (wide audience) Came up with multiple unique ideas to distinguish our idea from existing solutions |
-| StudyLah (Dropped) |  |
-| Dedicated AI Stress Organizer DAISO (Dropped) |  |
+| Idea                                            | Why it was dropped / kept |
+| :----                                           | :----                     |
+| TravelGroupVerynice TGV (Chosen)                | <ul><li>Niche (some features targeted towards large travel groups)</li><li>Everyone can use the app (wide audience)</li><li>Came up with multiple unique ideas to distinguish our idea from existing solutions</li></ul> |
+| StudyLah (Dropped)                              | <ul><li>Does not really match the problem statement</li><li>Focus on study plan only instead of other things students may be also tackling (assignments, jobs, etc)</li></ul>  |
+| Dedicated AI Stress Organizer DAISO (Dropped)   | <ul><li>Exactly following the problem statement, can only stand out if our solution is better than all the other competitors</li><li>Accuracy concerns with biosignature readings depending on using native app or PWA</li></ul> |
 
 ### **2.2 Ideation Boards**
 
@@ -65,10 +65,10 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 
 | Date | Mentor | Feedback Received | What Was Changed |
 | :---- | :---- | :---- | :---- |
-| 2 Sept | Teng Wei Herr | For frontend, use [Next.js](http://Next.js) or React, whichever framework that AI is proficient at.  Develop an app that the creator themselves would use. | Finalize on [Next.js](http://Next.js) as one of the frontend frameworks |
-| 2 Sept | Khor Jia Quan | Suggested we go for the travel planner idea as it is more broad and can cover everyone, not just for students only with the stress tracker. | More confidence in travel planner idea |
-| 3 Sept | Varsha Selvakumar | Travel Planner (Kong): Midpoint recommendation for reconvening, weather and crowd factor prediction (is niche and good) StudyLah (Ethan): Refine prediction model, copy study plan is good idea, use prediction model to suggest new template quiz to match users to new templates NEED PREDICT BECAUSE STOP BURNOUT behavior analysis Stress Tracker (JunHan): Combine Ethan and JunHan idea. Feature is good, but less niche since it is 1 to 1 to what problem statement wants. More competition since everyone solving same problem. This idea will compete in who solves the problem better (JunHan idea), rather than who solves a better problem (Kong idea) Idea Tips: Find the problem and find features to solve it. See if can map a feature to a problem statement  find niche \-\> smaller audience, better space user \-\> problem \-\> feature | More confidence in travel planner idea, add midpoint recommendation, weather & crowd prediction into idea. |
-| 4 Sept | Iris Yan | Pitch for JunHan idea was good and attention grabbing.  Pitch for travel planner has intended customer base zoned in (good and niche). Introduce Tinder-based grouping system to group people in large travel groups | Finalize on travel planner idea, add Tinder-based grouping system to idea. |
+| 2 Sept | Teng Wei Herr | <ul><li>For frontend, use Next.js or React, whichever framework that AI is proficient at</li><li>Develop an app that the creator themselves would use</li></ul> | Finalize on Next.js as one of the frontend frameworks |
+| 2 Sept | Khor Jia Quan | <ul><li>Suggested we go for the travel planner idea as it is more broad and can cover everyone, not just for students only with the stress tracker</li></ul> | More confidence in travel planner idea |
+| 3 Sept | Varsha Selvakumar | <ul><li>Travel Planner (Kong):</li><ul><li>Midpoint recommendation for reconvening, weather and crowd factor prediction (is niche and good)</li></ul></ul><ul><li>StudyLah (Ethan):</li><ul><li>Refine prediction model, copy study plan is good idea, use prediction model to suggest new template quiz to match users to new templates</li><li>NEED PREDICT BECAUSE STOP BURNOUT</li><li>behavior analysis</li></ul></ul><ul><li>Stress Tracker (JunHan):</li><ul><li>Combine Ethan and JunHan idea</li><li>Feature is good, but less niche since it is 1 to 1 to what problem statement wants</li><li>More competition since everyone solving same problem</li><li>This idea will compete in who solves the problem better (JunHan idea), rather than who solves a better problem (Kong idea)</li></ul></ul><ul><li>Idea Tips:</li><ul><li>Find the problem and find features to solve it</li><li>See if can map a feature to a problem statement</li><li>find niche \-\> smaller audience, better space user \-\> problem \-\> feature</li></ul></ul> | More confidence in travel planner idea, add midpoint recommendation, weather & crowd prediction into idea. |
+| 4 Sept | Iris Yan | <ul><li>Pitch for JunHan idea was good and attention grabbing</li><li>Pitch for travel planner has intended customer base zoned in (good and niche)</li><li>Introduce Tinder-based grouping system to group people in large travel groups</li></ul> | Finalize on travel planner idea, add Tinder-based grouping system to idea. |
 
 ## **3\. Design & Prototype**
 
