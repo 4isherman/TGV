@@ -60,7 +60,51 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 
 ### **2.2 Ideation Boards**
 
-```
+**DAISO**
+
+Utilize existing stress-related datasets to develop a continuously improving product based on dataset context and product impact. Conventional, simple problems that do not require data are already being solved by web apps and programmers. Data enables us to tackle more complex problems with uncertain assumptions that would otherwise be difficult or impossible to validate without empirical evidence.
+Ideas proposed here are noble. Only research codes and papers but not commercialized products. We are making these products marketable with a human touch of UI UX and business model.
+
+**TILES**
+The TILES dataset combines physiological (heart rate, breathing rate, ECG), behavioral (steps, sleep, smartphone usage), environmental (temperature, humidity, light, motion), proximity/location (RSSI), participant metadata, and survey (stress, fatigue, well-being, job satisfaction) data, making it useful for machine-learning analysis and prediction of workplace stress, fatigue, well-being, and job performance.
+
+Product example:
+**HRFriend**. Uses data from employee medical records, and install tracker on smartphone and smartwatch to gague employee stress at work. Company can allocate mental health resources to stressed employees to improve productivity and to make your company have halo effect
+
+
+**StudentLife**
+The StudentLife dataset includes columns such as school, sex, age, studytime, failures, absences, internet, G1, G2, and G3, and can be used to analyze and predict how students’ demographics, study habits, attendance, and academic history influence their final academic performance.
+
+Product example:
+**STUFriend**. Uses data from student school records, gague student performance at school. School can allocate mental health resources to retarding students to improve productivity and to make your school have halo effect.
+
+
+
+**WESAD**
+WESAD (Wearable Stress and Affect Detection) is a multimodal physiological dataset containing ECG, EDA, EMG, respiration (Resp), temperature (Temp), 3-axis acceleration (ACC_X, ACC_Y, ACC_Z), BVP, and stress/affect labels, which can be used to develop and benchmark stress and emotion detection models, with potential for translating these signals into smartphone- or smartwatch-derived proxies for real-world stress monitoring.
+
+Product example:
+**SigmaLimiter**. For those who are always locked in (workaholics). Uses phone camera / webcam + screentime to derive biomechanics data and current task data, classify it as a stress inducing behavior or not, and determine if it is healthy for the user to continue and recommend breaks.
+
+**DAIC-WOZ**
+DAIC-WOZ is a multimodal depression-detection dataset containing participant-level columns such as Participant_ID, Gender, PHQ8_Score, PHQ8_Binary, and individual PHQ-8 symptom scores, along with time-aligned transcript (start_time, stop_time, speaker, value), audio, and facial features, making it suitable for developing and evaluating AI models for depression detection and severity prediction.
+
+Product example
+**HelpTherapy**. Therapy is suggestive and sometimes invasive. This product will interview you like a therapist (with LLM) but listens to you like therapists will (Audio and image processing) and gives you a more accurate diagnosis. 
+(or can rebrand as a tool to help therapists to read microexpressions or people who cant afford therapy.)
+
+
+ 
+
+TILES, StudentLife and WESAD core concept is similar to an existing product called https://sumondo.co/, where the change is just the business model and accessibility. Changing a business model or another way to do the same thing with accuracy drawbacks for more accessibility is not an absolute and noble  improvement over an existing solution, but rather a considerable alternative.
+For DAIC-WOZ, these ideas already exist.
+Wysa already provides AI-based mental-health conversations.
+Woebot Health also uses AI to provide mental-health support.
+CU Medicine's multimodal depression app already combines facial expressions, voice, language, and other data to assess depression.
+Conclusion: HelpTherapy is not very unique in its current form. Its strongest way to stand out would be to help therapists by analyzing these signals and highlighting potential concerns, rather than trying to replace therapists or diagnose patients itself.
+
+
+
 DAISO (Dedicated AI Stress Organizer) - A connection of scheduling, activity classification, analysis and convenient stress measurements based on bio signatures. Supercharged with forecasting / action call and self-experimental discovery framework for new interventions.
 
 For every scheduled activity from external calendar sources, it can be automatically or manually classified as a stress type activity or recovery typed activity with subcategories. Biosignatures are taken before and after said activity with a mobile device and an increase / decrease in stress level is recorded. At the end of a period (a week or a month), a summary of the data is shown to the user with suggestions based on the data.
@@ -71,7 +115,24 @@ Once data is sufficient, the application is able to aid the user by providing an
 
 The app will also remind the user for constant recalibration to adapt to changes in baseline of the users
 
-```
+
+Research process
+1. **Can PRV detect stress?**
+Yes. Studies using PPG-based devices report high accuracy — one model hit 94.3% accuracy classifying 5 levels of mental stress (source), and another hit ~95% for stress and ~98% for depression (source).
+WESAD, a widely-used benchmark dataset (chest + wrist sensors, 15 subjects, lab-induced stress via public speaking/math tasks), also shows PRV features can separate stress from baseline/amusement, typically in the 80–95% range
+Caveat: PRV tracks HRV well at rest, but that agreement gets worse under stress or movement — exactly when you're trying to measure it (source).
+2. **Fingertip camera PPG vs. wearables for resting PRV**
+Fingertip camera PPG is very accurate at rest — correlation with ECG of r=.997 (source).
+It can even beat wrist wearables: fingertip HRV error stayed at 0.15ms regardless of conditions, while wrist PPG error jumped up to 12x if contact pressure wasn't perfect (source).
+Independent long-term testing backs this up for daily resting HRV tracking (source).
+3. **Is facial camera PPG a good fallback for resting PRV?**
+For heart rate alone — yes, nearly as good as fingertip (r=.997) (source).
+For PRV/HRV specifically — much weaker. One study found HR correlation of 0.86 but HRV correlation of only 0.25–0.33 (source). Facial PPG is also very sensitive to motion and lighting, with errors up to 30+ BPM in handheld/real-world conditions (source).
+Simple ranking (most to least reliable for resting PRV): chest strap/wearable ≈ fingertip camera PPG > wrist wearable (poor fit) > facial camera PPG.
+
+
+
+**StudyLah**
 
 ```
 1. The StudyLah Concept
@@ -85,6 +146,7 @@ Students are surrounded by advice but still struggle to convert it into a realis
 The initial target group is Malaysian university students managing classes, assessments and independent study, particularly students who feel overloaded, lack a reliable study routine or repeatedly abandon ambitious schedules. This directly fits CodeNection’s Lifestyle and Personal Productivity direction and its burnout-related problem context.
 ```
 
+**TGV**
 ![Affinity](https://i.imgur.com/MO29KDG.png)
 
 ### **2.3 Mentor Consultation**
