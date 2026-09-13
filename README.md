@@ -61,6 +61,7 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 | Dedicated AI Stress Organizer DAISO (Dropped)   | <ul><li>Exactly following the problem statement, can only stand out if our solution is better than all the other competitors</li><li>Accuracy concerns with rPPG biosignature readings depending on using native app or PWA</li></ul> |
 
 ### **2.2 Ideation Boards**
+#### **2.2.1 Lifestyle Track: Beating the Burnout (Idea 1)**
 
 **DAISO**
 
@@ -132,6 +133,7 @@ For heart rate alone — yes, nearly as good as fingertip (r=.997) (source).
 For PRV/HRV specifically — much weaker. One study found HR correlation of 0.86 but HRV correlation of only 0.25–0.33 (source). Facial PPG is also very sensitive to motion and lighting, with errors up to 30+ BPM in handheld/real-world conditions (source).
 Simple ranking (most to least reliable for resting PRV): chest strap/wearable ≈ fingertip camera PPG > wrist wearable (poor fit) > facial camera PPG.
 
+#### **2.2.2 Lifestyle Track: Beating the Burnout (Idea 2)**
 
 
 **StudyLah**
@@ -148,8 +150,12 @@ Students are surrounded by advice but still struggle to convert it into a realis
 The initial target group is Malaysian university students managing classes, assessments and independent study, particularly students who feel overloaded, lack a reliable study routine or repeatedly abandon ambitious schedules. This directly fits CodeNection’s Lifestyle and Personal Productivity direction and its burnout-related problem context.
 ```
 
-**TGV**
+#### **2.2.3 Lifestyle Track: Planning an Escape**
+
+#### **TGV**
 ![Affinity](https://i.imgur.com/MO29KDG.png)
+![tgv_ideation1](https://raw.githubusercontent.com/4isherman/TGV/refs/heads/main/assets/tgv_ideation1.png)
+![tgv_ideation2](https://raw.githubusercontent.com/4isherman/TGV/refs/heads/main/assets/tgv_ideation2.png)
 
 ### **2.3 Mentor Consultation**
 
