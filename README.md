@@ -150,6 +150,7 @@ The initial target group is Malaysian university students managing classes, asse
 
 **TGV**
 ![Affinity](https://i.imgur.com/MO29KDG.png)
+![mindmap](https://raw.githubusercontent.com/4isherman/TGV/refs/heads/main/assets/mindmap.png)
 
 ### **2.3 Mentor Consultation**
 
